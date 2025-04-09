@@ -49,10 +49,26 @@ cd ../hw3 && make
 
 ### Run testcases
 
+## hw1
 ```bash
-cd hw1 && ./testcase
-cd ../hw2 && ./testcase
-cd ../hw3 && ./testcase
+cd hw1
+./hw1 [testcase number(1~3)]
+```
+
+
+## hw2
+```bash
+cd hw2
+./hw2 [testcase number(1~3)]
+```
+
+## hw3
+```bash
+cd hw3
+./hw3 format 1 #testcase 1
+./hw3 readwrite 2 #testcase 2
+./hw3 readwrite 3 #testcase 3
+./hw3 readwrite 4 #testcase 4
 ```
 
 > Note: `MY_DISK` will be generated/used in hw2 and hw3 as the virtual storage device.
@@ -67,10 +83,3 @@ FileSystem/
 ├── hw2/               # Disk and buffer layer
 ├── hw3/               # Full file system
 ```
-
----
-
-## License
-
-This project is intended for educational purposes and systems programming coursework.  
-Please do not redistribute or reuse without proper credit.
